@@ -28,3 +28,10 @@ proc test_read_defer =
 
 test_read_defer()
 
+
+
+for line in lines "cats.txt":
+    echo line
+
+for line in lines "catactivities.txt":
+    echo line    
